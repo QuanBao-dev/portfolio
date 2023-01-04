@@ -1,0 +1,5 @@
+.home-container{
+  height: inherit;
+  display: flex;
+  align-items: center;
+}

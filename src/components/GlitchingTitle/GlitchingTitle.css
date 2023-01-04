@@ -1,0 +1,26 @@
+.text-glitch {
+  position: relative;
+  font-size: 4rem;
+  color: white;
+  margin:0;
+  display:block
+}
+
+.text-glitch::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0px;
+  display: block;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  /* animation: noise-anim-2 0.5s infinite linear alternate-reverse; */
+}
+
+@keyframes noise-anim-2{
+  from{
+    clip: rect(0px,9999px,100px,0)
+  }
+  to{
+    clip: rect(50px,9999px,50px,0)
+  }
+}

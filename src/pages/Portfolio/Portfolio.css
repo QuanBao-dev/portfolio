@@ -1,0 +1,110 @@
+.portfolio-title{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.project-item{
+  display: flex;
+  text-align: end;
+  align-items: flex-start;
+  position: relative;
+  justify-content: flex-start;
+  z-index: 100;
+  margin-bottom: 60px;
+  min-height: 400px;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 200px;
+  transition: 0.5s;
+}
+
+.project-item.reverse{
+  flex-direction: row-reverse;
+}
+
+.portfolio-list{
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-list .image-container{
+  max-width: 700px;
+  width: 100%;
+  position: absolute;
+}
+
+.portfolio-list .image-container > img{
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.project-item-wrapper{
+  text-shadow: 1px 1px black;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.project-item-wrapper h1{
+  color: rgb(232, 232, 49);
+  text-shadow: 1px 1px black;
+}
+
+.project-item.reverse .project-item-wrapper{
+  top: 0;
+  left: 0;
+}
+
+.project-item.reverse .project-item-wrapper{
+  text-align: start;
+}
+
+.project-item-wrapper .description{
+  max-width: 400px;
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: rgb(19, 36, 28);
+  padding: 20px;
+  box-shadow: 0 0 5px 1px grey;
+  border-radius: 10px;
+  text-align: start;
+}
+
+.tagname-list{
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding: 0;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.project-item.reverse .tagname-list{
+  justify-content: flex-start;
+}
+
+.tagname-item{
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px grey;
+  margin-left: 5px;
+  background-color: rgb(23, 38, 27);
+}
+
+.project-item:hover{
+  transform: translateY(10px);
+}
+
+
+.links-code-show{
+  padding: 0;
+}
+
+.links-code-show a{
+  margin: 10px;
+  display: inline-block;
+}

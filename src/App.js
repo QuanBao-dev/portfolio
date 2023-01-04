@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
+import Particles from "./components/Particles/Particles";
+import GlitchingTitles from "./components/GlitchingTitles/GlitchingTitles";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Documents from "./components/Documents/Documents";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="app-container">
+        <header>
+          <NavBar />
+          <Particles className={"particles-container"} />
+          <Particles className={"particles-container"} isFaster={true} />
+          <Particles className={"particles-container-2"} />
+          <Particles className={"particles-container-3"} />
+        </header>
+        <Routes>
+          <Route path="/:page" element={<Documents />} />
+          <Route path="/" element={<Documents />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

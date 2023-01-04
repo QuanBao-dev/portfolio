@@ -1,0 +1,27 @@
+.menu-button-container{
+  display: flex;
+  justify-content: space-between;
+  width:30px;
+  display: flex;
+  height: 20px;
+  flex-direction: column;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.menu-button-container span{
+  width: 100%;
+  background-color: white;
+  height: 3px;
+  transition: 0.5s;
+}
+
+.menu-button-container.active .one{
+  transform: rotate(45deg) translate(7px, 6px);
+}
+.menu-button-container.active .two{
+  opacity: 0;
+}
+.menu-button-container.active .three{
+  transform: rotate(-45deg) translate(5px, -6px);
+}
