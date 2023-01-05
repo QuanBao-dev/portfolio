@@ -1,4 +1,4 @@
-const Icon = ({ type }) => {
+const Icon = ({ type, size }) => {
   if (type === "website")
     return (
       <svg
@@ -7,8 +7,8 @@ const Icon = ({ type }) => {
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        width="2em"
-        height="2em"
+        width={size ? size : "2em"}
+        height={size ? size : "2em"}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -26,8 +26,8 @@ const Icon = ({ type }) => {
       aria-hidden="true"
       role="img"
       className="iconify iconify--tabler"
-      width="2em"
-      height="2em"
+      width={size ? size : "2em"}
+      height={size ? size : "2em"}
       viewBox="0 0 24 24"
     >
       <title>Github</title>

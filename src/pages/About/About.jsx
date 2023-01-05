@@ -70,7 +70,7 @@ const About = () => {
                   href={"https://github.com/QuanBao-dev"}
                   rel="noreferrer"
                 >
-                  <Icon />
+                  <Icon size={"1em"} />
                 </a>
               </li>
             </ul>
