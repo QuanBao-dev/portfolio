@@ -2,10 +2,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Particles from "./components/Particles/Particles";
-import GlitchingTitles from "./components/GlitchingTitles/GlitchingTitles";
-import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
-import Portfolio from "./pages/Portfolio/Portfolio";
 import Documents from "./components/Documents/Documents";
 
 function App() {
