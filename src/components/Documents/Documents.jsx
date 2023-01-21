@@ -144,6 +144,9 @@ const Documents = () => {
               <li>Portfolio</li>
             </Link>
           </ul>
+          <div className="menu-title">
+            <h1>Quan Bao</h1>
+          </div>
         </section>
       </li>
     </ul>
