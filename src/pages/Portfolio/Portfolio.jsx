@@ -4,7 +4,7 @@ const data = [
   {
     href: "https://myanimefun.up.railway.app/",
     image:
-      "https://media.discordapp.net/attachments/911517352418504707/1059977590179373139/image.png?width=1097&height=617",
+      "https://www.upwork.com/att/download/portfolio/persons/uid/1569842018693115904/profile/projects/files/7054f771-079a-426b-af1e-c1caaeb841da",
     title: "My anime Fun",
     description: [
       "An anime database where you can watch the latest anime in high quality and discuss about them with other people. Update daily, No tracking, No paying, No registration required. Just enjoy your anime",
@@ -16,7 +16,7 @@ const data = [
   {
     href: "https://dev-to.up.railway.app/",
     image:
-      "https://media.discordapp.net/attachments/911517352418504707/1059933825179848714/image.png?width=1097&height=617",
+      "https://www.upwork.com/att/download/portfolio/persons/uid/1569842018693115904/profile/projects/files/b885bcad-6b87-4cde-919c-23e3ca234f3c",
     title: "Dev to",
     description: [
       "A community blog website where you will share your knowledge to community",
@@ -27,7 +27,7 @@ const data = [
   {
     href: "https://quanbao-foodstore.netlify.app/",
     image:
-      "https://media.discordapp.net/attachments/911517352418504707/1059936644742008853/image.png?width=1097&height=617",
+      "https://www.upwork.com/att/download/portfolio/persons/uid/1569842018693115904/profile/projects/files/72682fcd-62dc-4132-97d7-819ca5947130",
     title: "Food G",
     description: [
       "A website where you can order food online. You can add to cart, check out the food",
@@ -39,7 +39,7 @@ const data = [
   {
     href: "https://quanbao-barber.netlify.app/",
     image:
-      "https://media.discordapp.net/attachments/911517352418504707/1059941790377050163/image.png?width=1097&height=617",
+      "https://www.upwork.com/att/download/portfolio/persons/uid/1569842018693115904/profile/projects/files/5cf46556-d599-4a7d-9bbc-54985528b6a1",
     title: "Barber",
     description: ["A beautiful landing page website about barber shop."],
     tagList: ["HTML", "CSS", "Vanilla Javascript"],
@@ -48,7 +48,7 @@ const data = [
   {
     href: "https://quanbao-idea.netlify.app",
     image:
-      "https://media.discordapp.net/attachments/911517352418504707/1059943208181825566/image.png?width=1097&height=617",
+      "https://www.upwork.com/att/download/portfolio/persons/uid/1569842018693115904/profile/projects/files/83673ab5-ff26-4324-9150-4df2d5a620c3",
     title: "Idea",
     description: ["A beautiful landing page website about Designer team."],
     tagList: ["HTML", "CSS", "Vanilla Javascript"],
@@ -58,7 +58,7 @@ const data = [
   {
     href: "https://quanbao-mibike.netlify.app/",
     image:
-      "https://media.discordapp.net/attachments/911517352418504707/1059945163176288346/image.png?width=1097&height=617",
+      "https://www.upwork.com/att/download/portfolio/persons/uid/1569842018693115904/profile/projects/files/a9382f19-5922-4053-aaff-33c9a19afc32",
     title: "MiBike",
     description: ["A beautiful landing page website about Bike shop."],
     tagList: ["HTML", "CSS", "Vanilla Javascript"],
