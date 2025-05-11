@@ -2,17 +2,6 @@ import Icon from "../../components/Icon/Icon";
 import "./Portfolio.css";
 const data = [
   {
-    href: "https://sugoivisualnovel.up.railway.app",
-    image:
-      "https://media.discordapp.net/attachments/911517352418504707/1056675184716812328/image.png?width=1097&height=617",
-    title: "Sugoi Visual Novel",
-    description: [
-      "A visual novel database where you will get the latest information of all kind of visual novels.",
-    ],
-    tagList: ["MongoDB", "Express", "React", "Node", "Socket.io"],
-    githubLink: "https://github.com/QuanBao-dev/Wiki-VN-website",
-  },
-  {
     href: "https://myanimefun.up.railway.app/",
     image:
       "https://media.discordapp.net/attachments/911517352418504707/1059977590179373139/image.png?width=1097&height=617",
